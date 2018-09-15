@@ -1,0 +1,36 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#sena{
+	border: 1px solid;
+	margin-top: 100px;
+	padding: 15px;
+}
+#logo{
+	width:70px; 
+	height:70px;
+	float:left;
+	margin: -8px;
+}
+#text{
+	margin-left: 10%;
+}
+#sena1{
+	padding: 15px;
+}
+#seg{
+	margin-left: 15%;
+}
+#border{
+	border-top: 1px solid;
+	margin-left: 15%;
+}
+#causas{
+	border: 1px solid;
+	margin-top: 20px;
+}
+
+#observaciones{
+	border: 1px solid;
+	margin-bottom: 20px;
+}
