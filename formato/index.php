@@ -36,7 +36,7 @@
 	<label>Observaciones:</label><br>
 </div>	
 	<label>VERIFICACIÓN DE REPORTE:</label>
-	<label id="seg1">Estado en Sofía:</label><br><br>
+	<label id="seg1">Estado en Sofía, Juan:</label><br><br>
 	<label>Fecha verificación:</label><br><br>
 	<label>Nota: Anexar la notificación de la deserción, enviada por correo al aprendiz.</label><br>
 	<br>
