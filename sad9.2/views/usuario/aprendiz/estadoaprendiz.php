@@ -1,5 +1,6 @@
   <div class="col-10 justify-content-center text-center">
       <?php foreach ($data as $fila): ?>
+	  
         <p><?= $fila->estado ?></p>
       <?php endforeach ?>
       <div>
