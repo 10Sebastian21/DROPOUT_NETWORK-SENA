@@ -9,6 +9,7 @@ private $pdo;
     		die($e->getMessage());
     	}
     }
+    
     public function insert($data){
         try {
             $stm=$this->pdo->prepare("INSERT INTO competencias (nom_competencia,ver_competencia,desc_competencia,id_programa) VALUES (?,?,?,?)");
