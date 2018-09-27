@@ -30,6 +30,7 @@ private $pdo;
             die($e->getMessage());
         }
     }
+    
      public function insertMasivo($data){
         try {
             $stm=$this->pdo->prepare("INSERT INTO `usuarios`(`nombres`, `apellidos`, `id_doc`, `num_documento`, `cel_usuario`, `tel_usuario`, `correo_instu`, `correo_perso`, `contrasenia`, `id_rol`) VALUES (?,?,?,?,?,?,?,?,?,?)");
@@ -45,6 +46,7 @@ private $pdo;
                 $data[8],
                 $data[9],
             ]);
+            
             return $stm;
 
         } catch (Exception $e) {
