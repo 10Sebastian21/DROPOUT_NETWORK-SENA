@@ -23,6 +23,7 @@ class EmailsController extends IndexController
 		include_once 'views/usuario/usuario.php';	
 		include_once 'views/emails/index.php';
 		include_once 'views/all/footer.php';
+		
 
 	}
 
