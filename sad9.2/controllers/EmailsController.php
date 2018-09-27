@@ -12,7 +12,7 @@ class EmailsController extends IndexController
 	
 	public function index()
 	{
-			$r='';
+		$r='';
 		$this->view('usuario','usuario',$r);
 
 	}
